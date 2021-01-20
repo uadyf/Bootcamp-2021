@@ -11,6 +11,6 @@ def kompas():
     data = []
     for item in items:
         data.append(item.get_text())
-    print(pd.DataFrame(data, columns=['Judul Berita Terpopuler']))
+    print(pd.DataFrame(data, columns=['Judul Berita Populer']))
 
 kompas()
